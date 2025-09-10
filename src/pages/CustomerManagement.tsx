@@ -10,7 +10,6 @@ import AdminLayout from "@/components/layout/AdminLayout";
 const CustomerManagement = () => {
   const [searchTerm, setSearchTerm] = useState("");
 
-  // Mock data for customers
   const customers = [
     {
       id: 1,

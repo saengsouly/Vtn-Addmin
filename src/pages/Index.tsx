@@ -10,12 +10,12 @@ const Index = () => {
       <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-20">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h1 className="text-5xl font-bold mb-6">VTN Motor Hub</h1>
-          <p className="text-xl mb-8">ລະບົບຈັດການຮ້ານລົດມື 2 ທີ່ທັນສະໄໝ</p>
-          <Link to="/admin">
+          <p className="text-xl mb-8">ລະບົບຈັດການຮ້ານລົດມື 2 VTN MOTOR</p>
+          {/* <Link to="/admin">
             <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
               ເຂົ້າສູ່ລະບົບ Admin
             </Button>
-          </Link>
+          </Link> */}
         </div>
       </div>
 
@@ -24,7 +24,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">ຄຸນສົມບັດຂອງລະບົບ</h2>
-            <p className="text-muted-foreground text-lg">ຈັດການທຸກສິ່ງທຸກຢ່າງໃນຮ້ານລົດມື 2 ຂອງທ່ານ</p>
+            <p className="text-muted-foreground text-lg">ລະບົບການຈັດການຮ້ານຂາຍລົດ ມື2 vtn motor</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -76,7 +76,7 @@ const Index = () => {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">ເລີ່ມຕົ້ນໃຊ້ງານມື້ນີ້</h2>
           <p className="text-muted-foreground text-lg mb-8">
-            ລະບົບການຈັດການທີ່ຄົບຄັນສຳລັບຮ້ານລົດມື 2 ຂອງທ່ານ
+            ລະບົບການຈັດການ Addmin ສຳລັບຮ້ານລົດມື 2 ຂອງຮ້ານ vtn mortor
           </p>
           <Link to="/admin">
             <Button size="lg" className="mr-4">
@@ -84,7 +84,7 @@ const Index = () => {
             </Button>
           </Link>
           <Button variant="outline" size="lg">
-            ຕິດຕໍ່ເພື່ອສາທິດ
+            ຕິດຕໍ່ເພື່ອທີ່ປືກສາ
           </Button>
         </div>
       </div>

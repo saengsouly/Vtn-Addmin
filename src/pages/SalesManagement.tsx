@@ -10,7 +10,6 @@ import AdminLayout from "@/components/layout/AdminLayout";
 const SalesManagement = () => {
   const [searchTerm, setSearchTerm] = useState("");
 
-  // Mock data for sales
   const sales = [
     {
       id: "SALE-001",
